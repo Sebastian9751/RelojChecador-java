@@ -16,7 +16,7 @@ public class main {
         ArrayList<String> a = conector.lista.asistencia;
         if(data==000) {									//mostrar los elemetos del array con "000"
             for (int i=0; i<=a.size()-1; i++) {
-    			System.out.println("lista\n"+"*"+a.get(i));
+    			System.out.println("*"+a.get(i));
     		}}else {re.start();}
         }
 	}
